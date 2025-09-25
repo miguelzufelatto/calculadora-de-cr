@@ -59,7 +59,6 @@ def processar_dados(nome_arquivo='notas.csv'):
 
 
 def main():
-    """Função principal que executa o programa."""
     alunos = processar_dados()
     if not alunos:
         return
